@@ -22,6 +22,25 @@
 .ec_cons{
     color: white;
 }
+.ec_inner_container{
+    margin: auto;
+    background: linear-gradient(90deg, rgba(47,122,70,1) 0%, rgba(26,142,61,1) 100%);
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+}
+.ec_inner_container h2{
+    color: white;
+}
+.ec_panel{
+    text-align: center;
+}
+.ec_servicios_ul div{
+    height: 350px;
+    border-radius: 10px;
+}
+.ec_slider{
+    padding: 50px 20px;
+}
 
 @media screen and (min-width: 992px){
     .ec_prox{
