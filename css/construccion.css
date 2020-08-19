@@ -1,0 +1,17 @@
+.ec_background{
+    position: relative;
+    width: 100vw;
+    height: 100vh!important;
+    background-image: url('../img/truck.jpg');
+}
+.ec_overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.ec_container{
+    height: 100vh;
+    margin: auto;
+    color: white;
+}
