@@ -1,3 +1,6 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
 .ec_background{
     position: relative;
     width: 100vw;
@@ -64,14 +67,15 @@
         min-height: 900px;
     }
     .ec_prox{
-        font-size: 6.5em;
+        font-weight: 600;
+        font-size: 6em;
         margin-bottom: -80px;
     }
     .ec_cons{
         font-size: 3.5em;
     }
     .ec_servicios_ul div{
-        height: 250px;
+        height: 270px;
         border-radius: 10px;
     }
     .ec_slider h3{
