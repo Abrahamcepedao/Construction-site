@@ -2,13 +2,21 @@
     position: relative;
     width: 100vw;
     height: 100vh!important;
+    min-height: 900px;
     background-image: url('../img/truck.jpg');
 }
 .ec_overlay{
     position: relative;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(90deg, rgba(47,122,70,0.8) 0%, rgba(26,142,61,0.8) 100%);
+}
+.ec_prox{
+    font-size: 3.5em;
+    margin-bottom: -40px;
+}
+.ec_cons{
+    font-size: 2em;
 }
 .ec_container{
     height: 100vh;
@@ -24,8 +32,7 @@
 }
 .ec_inner_container{
     margin: auto;
-    background: linear-gradient(90deg, rgba(47,122,70,1) 0%, rgba(26,142,61,1) 100%);
-    padding: 50px 50px 50px 50px;
+    padding: 50px 20px 70px 20px;
     border-radius: 10px;
 }
 .ec_inner_container h2{
@@ -34,20 +41,40 @@
 .ec_panel{
     text-align: center;
 }
+.ec_servicios_ul{
+    width: 100%;
+}
 .ec_servicios_ul div{
-    height: 350px;
+    height: 200px;
     border-radius: 10px;
 }
 .ec_slider{
-    padding: 50px 20px;
+    padding: 50px 20px 50px 20px;
+}
+.ec_slider h3{
+    font-size: 12px;
+}
+.ec_contact_info span{
+    margin-right: 10px;
 }
 
+
 @media screen and (min-width: 992px){
+    .ec_background{
+        min-height: 900px;
+    }
     .ec_prox{
         font-size: 6.5em;
         margin-bottom: -80px;
     }
     .ec_cons{
         font-size: 3.5em;
+    }
+    .ec_servicios_ul div{
+        height: 250px;
+        border-radius: 10px;
+    }
+    .ec_slider h3{
+        font-size: 18px;
     }
 }
