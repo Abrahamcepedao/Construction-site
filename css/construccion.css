@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh!important;
     min-height: 900px;
-    background-image: url('../img/truck.jpg');
+    background-image: url('../images/truck.jpg');
 }
 .ec_overlay{
     position: relative;
@@ -15,11 +15,12 @@
     background: linear-gradient(90deg, rgba(47,122,70,0.8) 0%, rgba(26,142,61,0.8) 100%);
 }
 .ec_prox{
-    font-size: 3.5em;
+    font-weight: 600;
+    font-size: 2em;
     margin-bottom: -40px;
 }
 .ec_cons{
-    font-size: 2em;
+    font-size: 1em;
 }
 .ec_container{
     height: 100vh;
@@ -67,7 +68,6 @@
         min-height: 900px;
     }
     .ec_prox{
-        font-weight: 600;
         font-size: 6em;
         margin-bottom: -80px;
     }
